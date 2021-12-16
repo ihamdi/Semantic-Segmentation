@@ -37,6 +37,18 @@ pip install -r requirements.txt
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Otherwise, download the files from the official [Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge/data) page and extract "train_hq.zip" to [`imgs`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/imgs) and "train_masks.zip" to [`masks`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/masks) folders in the [`data`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data) directory.
 
+## Folder Structure
+1. [`data`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data) directory contains [`imgs`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/imgs) and [`masks`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/masks) folders.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. [`data/imgs`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/imgs) folder contains the images. One image is included since Github does not allow empty folders.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. [`data/masks`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/masks) folder contains the masks. One mask is included since Github does not allow empty folders.
+
+2. [`scripts`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/scripts) directory contains [`download_data.py`](https://github.com/ihamdi/Semantic-Segmentation/blob/main/scripts/download_data.py) used to download the dataset directly from Kaggle.
+3. [`unet`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/unet) directory contains UNet model.
+4. [`utils`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/utils) directory contains data-loading and dice-score files.
+
+
 ## Dataset
 Data is obtained from Kaggle's [Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge) competition. Images and Masks archieves are provided in both normal and high quality. This code utilizes the train_hp.zip as well as train_masks.zip. 
 
