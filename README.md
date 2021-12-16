@@ -40,9 +40,9 @@ pip install -r requirements.txt
 ## Folder Structure
 1. [`data`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data) directory contains [`imgs`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/imgs) and [`masks`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/masks) folders.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. [`data/imgs`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/imgs) folder contains the images. One image is included since Github does not allow empty folders.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. [`data/imgs`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/imgs) folder is where the images are expected to be.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. [`data/masks`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/masks) folder contains the masks. One mask is included since Github does not allow empty folders.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. [`data/masks`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/data/masks) folder is where the images are expected to be.
 
 2. [`scripts`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/scripts) directory contains [`download_data.py`](https://github.com/ihamdi/Semantic-Segmentation/blob/main/scripts/download_data.py) used to download the dataset directly from Kaggle.
 3. [`unet`](https://github.com/ihamdi/Semantic-Segmentation/tree/main/unet) directory contains UNet model.
