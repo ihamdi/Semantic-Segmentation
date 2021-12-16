@@ -6,3 +6,4 @@ torchvision
 tqdm
 wandb
 kaggle
+scikit-learn

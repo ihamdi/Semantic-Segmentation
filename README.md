@@ -102,14 +102,10 @@ For any questions or feedback, please feel free to post comments or contact me a
 
 ---
 
-#### Getting Key for Kaggle's API
+#### *Getting Key for Kaggle's API
 
 ![image](https://user-images.githubusercontent.com/93069949/144188576-d457568e-7cd2-42f2-ba08-9c41143d674d.png)
 
 ![image](https://user-images.githubusercontent.com/93069949/144188635-705e1e29-92ae-4aba-be66-0e1d2e1c29ca.png)
 
 ![image](https://user-images.githubusercontent.com/93069949/144188696-f535f9c8-3ed8-4e1b-8f0d-179d7e5be2a2.png)
-
-### Getting Key for Weights & Biases (wandb):
-
-![Screenshot from 2021-12-14 11-50-20](https://user-images.githubusercontent.com/93069949/145955435-3a354138-f962-4271-85c7-053d487920c7.png)
